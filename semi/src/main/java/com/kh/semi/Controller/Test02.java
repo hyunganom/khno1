@@ -9,4 +9,5 @@ public class Test02 {
 	int f;
 	int g;
 	int test;
+	int test2;
 }
