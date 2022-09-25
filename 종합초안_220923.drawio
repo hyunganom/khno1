@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-24T04:37:00.719Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="bF46zFbD8r92KF3sLLCw" version="20.3.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-25T05:14:08.831Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="E7taP19T-TUK6okwEDLB" version="20.3.6" type="github" pages="2">
   <diagram id="vN-ewSu5FtDSZQEM9Zyt" name="종합초안">
-    <mxGraphModel dx="4722" dy="5443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="5331" dy="5824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="Z_-gwSel0BhFd-GCLUsK-0" />
         <mxCell id="Z_-gwSel0BhFd-GCLUsK-1" parent="Z_-gwSel0BhFd-GCLUsK-0" />
@@ -378,11 +378,10 @@
         <mxCell id="Z_-gwSel0BhFd-GCLUsK-91" value="&lt;h1&gt;Board&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="Z_-gwSel0BhFd-GCLUsK-1" vertex="1">
           <mxGeometry x="-521" y="-318" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Z_-gwSel0BhFd-GCLUsK-92" value="내 정보 변경&lt;br&gt;edit.ez" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="Z_-gwSel0BhFd-GCLUsK-1" vertex="1">
-          <mxGeometry x="1994" y="616" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Z_-gwSel0BhFd-GCLUsK-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="Z_-gwSel0BhFd-GCLUsK-1" source="Z_-gwSel0BhFd-GCLUsK-94" target="Z_-gwSel0BhFd-GCLUsK-92" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Z_-gwSel0BhFd-GCLUsK-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="Z_-gwSel0BhFd-GCLUsK-1" source="Z_-gwSel0BhFd-GCLUsK-94" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1994.000000000001" y="646" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Z_-gwSel0BhFd-GCLUsK-94" value="내 정보 변경&lt;br&gt;edit.jsp" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="Z_-gwSel0BhFd-GCLUsK-1" vertex="1">
           <mxGeometry x="1784" y="616" width="120" height="60" as="geometry" />
@@ -454,11 +453,10 @@
         <mxCell id="Z_-gwSel0BhFd-GCLUsK-112" value="대표배송지 변경&lt;br&gt;delivery_update.ez" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="Z_-gwSel0BhFd-GCLUsK-1" vertex="1">
           <mxGeometry x="1994" y="919" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Z_-gwSel0BhFd-GCLUsK-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="Z_-gwSel0BhFd-GCLUsK-1" source="Z_-gwSel0BhFd-GCLUsK-114" target="Z_-gwSel0BhFd-GCLUsK-122" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Z_-gwSel0BhFd-GCLUsK-114" value="배송지 삭제&lt;br&gt;delivery_delete.ez" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="Z_-gwSel0BhFd-GCLUsK-1" vertex="1">
-          <mxGeometry x="1994" y="815" width="120" height="60" as="geometry" />
+        <mxCell id="Z_-gwSel0BhFd-GCLUsK-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="Z_-gwSel0BhFd-GCLUsK-1" target="Z_-gwSel0BhFd-GCLUsK-122" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1994.000000000001" y="844.9999999999991" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Z_-gwSel0BhFd-GCLUsK-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1.012;entryY=0.103;entryDx=0;entryDy=0;entryPerimeter=0;" parent="Z_-gwSel0BhFd-GCLUsK-1" source="Z_-gwSel0BhFd-GCLUsK-116" target="Z_-gwSel0BhFd-GCLUsK-122" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -485,8 +483,10 @@
             <mxPoint x="1984" y="755" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z_-gwSel0BhFd-GCLUsK-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="Z_-gwSel0BhFd-GCLUsK-1" source="Z_-gwSel0BhFd-GCLUsK-122" target="Z_-gwSel0BhFd-GCLUsK-114" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Z_-gwSel0BhFd-GCLUsK-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="Z_-gwSel0BhFd-GCLUsK-1" source="Z_-gwSel0BhFd-GCLUsK-122" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1994.000000000001" y="844.9999999999991" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Z_-gwSel0BhFd-GCLUsK-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="Z_-gwSel0BhFd-GCLUsK-1" source="Z_-gwSel0BhFd-GCLUsK-122" target="Z_-gwSel0BhFd-GCLUsK-112" edge="1">
           <mxGeometry relative="1" as="geometry" />
