@@ -12,5 +12,6 @@ public class Test02 {
 	int test2;
 	int test3;
 	int tesed;
-	//sddd
+	int test44;
+
 }
