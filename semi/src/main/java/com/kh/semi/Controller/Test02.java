@@ -8,4 +8,5 @@ public class Test02 {
 	int e = 5;
 	int f;
 	int g;
+	int test;
 }
