@@ -5,5 +5,5 @@ public class Test02 {
 	int b;
 	int c;
 	int d;
-	int e;
+	int e = 5;
 }
