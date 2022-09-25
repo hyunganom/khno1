@@ -1,4 +1,4 @@
-package com.kh.seim;
+package com.kh.semi;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
