@@ -1,0 +1,46 @@
+drop table member;
+create table member(
+member_id varchar2(20) primary key 
+check(regexp_like(member_id, '^[a-z0-9-_]{5,20}$')),
+member_pw varchar2(16) not null 
+check(regexp_like(member_pw, '^[a-zA-Z0-9!@#$]{8,16}$')),
+member_name varchar2(21) not null 
+check(regexp_like(member_name,'^[가-힣]{2,7}$')),
+member_email varchar2(30) 
+check(regexp_like(member_email, '@')),
+member_tel char(11) 
+check(regexp_like(member_tel, '^010[0-9]{8}$')),
+member_post varchar2(6) 
+check(regexp_like(member_post, '^[0-9]{5,6}$')),
+member_base_address varchar2(150),
+member_detail_address varchar2(150),
+member_birth date,
+member_gender varchar2(6),
+member_grade varchar2(6) default '일반' not null
+check(member_grade in ('일반', 'VIP', '관리자')),
+member_point number default 0,
+member_joindate date default sysdate,
+member_logindate date
+);
+
+
+--member(회원) table
+
+--아이디(member_id) : 5~20자의 영문소문자, 숫자, '-', '_' 가능
+--비밀번호(member_pw) : 8~16자의 영문소, 대문자, 숫자, 특수문자(!@#$) 가능
+--이름(member_name) : 한글 최소2자, 최대 7자
+--이메일(member_email) 
+--휴대폰(member_tel) : 010-0000-0000으로 설정
+--주소-우편번호(member_post) : 숫자 5~6글자
+--주소-기본주소(member_base_address) 
+--주소-상세주소(member_detail_address)
+--생년월일(member_birth) 
+--성별(member_gender) : 남자, 여자
+--등급(member_grade) : 일반, vip, 관리자, 일반으로 기본설정
+--포인트(member_point) : 0으로 기본 설정
+--가입일시(member_joindate) : 가입 시점의 시각, sysdate로 기본 설정
+--로그인일시(member_logindate) : 로그인 시점의 시각
+
+
+
+
