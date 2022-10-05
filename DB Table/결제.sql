@@ -11,6 +11,6 @@ create table payment (
 payment_order_no number references order(order_no),
 payment_id varchar2(20) references order(order_id),
 payment_product_no number references product(product_no),
-product_count number,
-product_price number
+product_count number default 1 not null,
+product_price number not null
 );
