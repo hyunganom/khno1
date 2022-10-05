@@ -7,7 +7,7 @@ notice_writedate date default sysdate,
 notice_updatedate date,
 notice_read number default 0
 )
-create sequence notice;
+create sequence notice_seq;
 
 
 --notice(공지게시판) table
