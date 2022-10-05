@@ -7,7 +7,7 @@ inquire_writedate date default sysdate,
 inquire_updatedate date
 )
 
-create sequence inquire;
+create sequence inquire_seq;
 
 --1:1 문의게시판(inquire) table
 
