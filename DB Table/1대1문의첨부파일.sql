@@ -5,5 +5,5 @@
 -- INQUIRE_ATTACHMENT 테이블 생성
 create table inquire_attachment (
 inquire_no number references inquire(inquire_no) on delete cascade,
-inquire_id varchar2(30) references member(member_id) on delete set null
+inquire_attachment_no number references attachment(attachment_no) on delete cascade
 );
