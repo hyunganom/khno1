@@ -8,7 +8,7 @@ inquire_reply_updatedate date,
 inquire_reply_content varchar2(2000) not null
 )
 
-create sequence inquire_reply;
+create sequence inquire_reply_seq;
 
 
 -- 1:1문의댓글(inquire_reply) table
