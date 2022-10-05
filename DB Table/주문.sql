@@ -15,15 +15,15 @@
 -- 주문상태 변경일(order_changedate) 주문 상태가 변경된 시점을 각각 sysdate로 설정?
 
 create table order (
-order_no number not null unique references parment(payment_order_no) ,
-order_id varchar2(20) not null unique references member(member_id)on delete cascade,
+order_no number primary key,
+order_id varchar2(20) not null unique references member(member_id) on delete cascade,
 order_name varchar2(30) not null,
 order_post varchar2(6) not null,
 order_base_address varchar2(150) not null,
 order_detail_address varchar2(150) not null,
 order_tel char(11) not null, 
 order_memo varchar2(3000),
-order_date date,
+order_date date default sysdate,
 order_status varchar2(16) default '결제완료' not null check(order_status in('결제완료', '주문취소', '취소완료')),
 order_changedate date
 );
