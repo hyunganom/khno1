@@ -15,7 +15,8 @@ check(regexp_like(member_post, '^[0-9]{5,6}$')),
 member_base_address varchar2(150),
 member_detail_address varchar2(150),
 member_birth date,
-member_gender varchar2(6),
+member_gender varchar2(6) 
+check(member_gender in ('남자', '여자')),
 member_grade varchar2(6) default '일반' not null
 check(member_grade in ('일반', 'VIP', '관리자')),
 member_point number default 0,
@@ -26,7 +27,7 @@ member_logindate date
 
 --member(회원) table
 
-<필수입력사항>
+--<필수입력사항>
 --아이디(member_id) : 5~20자의 영문소문자, 숫자, '-', '_' 가능
 --비밀번호(member_pw) : 8~16자의 영문소, 대문자, 숫자, 특수문자(!@#$) 가능
 --이름(member_name) : 한글 최소2자, 최대 7자
