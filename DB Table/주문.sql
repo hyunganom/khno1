@@ -16,7 +16,7 @@
 
 create table order (
 order_no number primary key,
-order_id varchar2(20) not null unique references member(member_id) on delete cascade,
+order_id not null unique references member(member_id) on delete cascade,
 order_name varchar2(30) not null,
 order_post varchar2(6) not null,
 order_base_address varchar2(150) not null,
