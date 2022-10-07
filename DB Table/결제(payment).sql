@@ -6,7 +6,7 @@
 -- 결제 상품 가격(payment_price) : 숫자
 
 
--- PAYMENT 테이블 생성
+-- payment 테이블 생성
 create table payment (
 payment_order_no number references order(order_no),
 payment_product_no number references product(product_no),
