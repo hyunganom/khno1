@@ -10,9 +10,12 @@
 -- 쿠폰 정보(coupon_info) 쿠폰이 발행된 이벤트 명(생일축하, 신규가입축하 등)
 
 create table coupon (
-coupon_no number not null unique,
-coupon_startdate date,
-coupon_enddate date,
-coupon_discount number,
-coupon_info varchar2(60)
+coupon_no number primary key,
+coupon_name varchar2(30) not null,
+coupon_startdate date default sysdate,
+coupon_enddate date not null,
+coupon_discount number not null,
+coupon_info varchar2(60) not null
 );
+
+create sequence coupon_seq;
