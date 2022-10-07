@@ -6,7 +6,9 @@
 
 -- CATEGORY_LOW 테이블 생성
 create table category_low (
-category_low_no primary key,
-category_high_no references category_high(category_high_no),
-category_low_name varchar2(30)
+category_low_no number primary key,
+category_high_no number references category_high(category_high_no) on delete cascade,
+category_low_name varchar2(30) not null
 );
+
+create sequence category_low_seq;
