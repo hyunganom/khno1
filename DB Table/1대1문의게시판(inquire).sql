@@ -1,6 +1,6 @@
 -- 1대1문의게시판
 -- 1:1 문의게시판(inquire) table
--- inquire_no(글 번호) : 기본키, 시퀀스로 부여
+-- inquire_no(글 번호) : 번호, 기본키, 시퀀스로 부여
 -- inquire_id(작성자) : 문자(20 byte), 외래키, 회원(member) 테이블의 회원 아이디(member_id) 참조, 회원 탈퇴시 작성자를 null로
 -- inquire_title(제목) : 문자(300 byte), , 반드시 입력
 -- inquire_content(내용) : 문자(4000 byte), 반드시 입력
