@@ -1,11 +1,11 @@
 -- 1대1문의게시판
---1:1 문의게시판(inquire) table
---inquire_no(글 번호) : 유일한 식별키, 시퀀스로 부여
---inquire_id(작성자) : 회원의 아이디 정보, 외래키로 설정, 탈퇴하면 작성자를 null로 변경
---inquire_title(제목) : 한글 100자 기준으로 설정
---inquire_content(내용) : 최대 4000byte
---inquire_writedate(작성일) : 작성된 시점의 시각, sysdate로 기본설정
---inquire_updatedate(수정일) : 수정된 시점의 시각
+-- 1:1 문의게시판(inquire) table
+-- inquire_no(글 번호) : 번호, 기본키, 시퀀스로 부여
+-- inquire_id(작성자) : 문자(20 byte), 외래키, 회원(member) 테이블의 회원 아이디(member_id) 참조, 회원 탈퇴시 작성자를 null로
+-- inquire_title(제목) : 문자(300 byte), , 반드시 입력
+-- inquire_content(내용) : 문자(4000 byte), 반드시 입력
+-- inquire_writedate(작성일) : 날짜, 기본값을 sysdate로
+-- inquire_updatedate(수정일) : 날짜
 
 -- inquire 테이블 생성
 create table inquire(
